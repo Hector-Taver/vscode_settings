@@ -1,7 +1,7 @@
 {
   // Editor
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.tabSize": 2,
@@ -11,16 +11,19 @@
   "editor.guides.bracketPairs": "active",
   "editor.formatOnSave": false,
   "editor.acceptSuggestionOnEnter": "smart",
+  "editor.wordWrap": "on",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
   },
+  "editor.snippetSuggestions": "none",
+  "editor.parameterHints.enabled": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
 
   // Workbench
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Min Dark",
 
   // Files
   "files.insertFinalNewline": true,
@@ -32,6 +35,7 @@
   // Terminal
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
 
   // Explorer
   "explorer.compactFolders": false,
@@ -40,40 +44,54 @@
 
   // Formatters
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[prisma]": {
     "editor.formatOnSave": true
+  },
+  "[java]": {
+    "editor.snippetSuggestions": "bottom",
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true,
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
   },
 
   // Javascript & Typescript
   "javascript.suggest.paths": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "typescript.suggest.paths": false,
+  "typescript.suggest.autoImports": true,
 
   // NPM
   "npm-intellisense.importES6": true,
@@ -119,5 +137,9 @@
 
   // Extra
   "telemetry.telemetryLevel": "off",
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "redhat.telemetry.enabled": false,
+  "boot-java.rewrite.reconcile": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Catppuccin Macchiato",
 }
