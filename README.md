@@ -143,6 +143,6 @@
   "boot-java.rewrite.reconcile": true,
   "workbench.productIconTheme": "fluent-icons",
   "workbench.colorTheme": "Catppuccin Macchiato",
+  "symbols.hidesExplorerArrows": false,
 }
-
 ```
